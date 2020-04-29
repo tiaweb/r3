@@ -39,19 +39,13 @@ export default function HeaderLinks(props) {
             <Link to="/" className={classes.dropdownLink}>
               All components
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
+            
           ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
+          href="https://github.com/tiaweb/r3/archive/master.zip"
           color="transparent"
           target="_blank"
           className={classes.navLink}
@@ -72,7 +66,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim?ref=creativetim"
+            href="https://mobile.twitter.com/tia_web"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -90,7 +84,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
+            href="https://facebook.com/tiashop.tiashop.376"
             target="_blank"
             className={classes.navLink}
           >
@@ -107,7 +101,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+            href="https://www.instagram.com/tiaaweb"
             target="_blank"
             className={classes.navLink}
           >
